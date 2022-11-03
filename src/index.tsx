@@ -12,7 +12,6 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Parent />
-    {/*<App /><Hello /><Name /><Message />*/}
   </React.StrictMode>
 );
 
