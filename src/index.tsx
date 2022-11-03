@@ -4,17 +4,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 //import App from './App';
-//import Hello from './components/Hello'
-//import Name from './components/Name'
-import Message from './components/Message'
+import Parent from './components/ContainerSample'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Message />
-    {/*<App /><Hello /><Name />*/}
+    <Parent />
+    {/*<App /><Hello /><Name /><Message />*/}
   </React.StrictMode>
 );
 
