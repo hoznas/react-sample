@@ -4,14 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 //import App from './App';
-import Parent from './components/ContainerSample'
+import Page from './components/ContextSample'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Parent />
+    <Page />
   </React.StrictMode>
 );
 
