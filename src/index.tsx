@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 
 //import App from './App';
 //import Counter from './components/MemoSample'
-import {Parent} from './components/MemoSample'
+import {Parent} from './components/UseCallbackSample'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
