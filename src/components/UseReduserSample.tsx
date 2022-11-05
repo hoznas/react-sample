@@ -15,7 +15,6 @@ const reducer = (currentCount: number, action: Action) => {
     default:
         return currentCount
     }
-
 }
 
 type CounterProps = {initialValue: number}
