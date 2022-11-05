@@ -4,13 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 //import App from './App';
-import Counter from './components/UseStateSample'
+import Counter from './components/UseReduserSample'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  
+
   <React.StrictMode>
     <Counter initialValue={0}/>
   </React.StrictMode>
