@@ -4,7 +4,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 //import App from './App';
-import Counter from './components/UseReduserSample'
+//import Counter from './components/MemoSample'
+import {Parent} from './components/MemoSample'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,7 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
 
   <React.StrictMode>
-    <Counter initialValue={0}/>
+    <Parent />
   </React.StrictMode>
 );
 
