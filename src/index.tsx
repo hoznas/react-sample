@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 
 //import App from './App';
 //import Counter from './components/MemoSample'
-import {Parent} from './components/UseCallbackSample'
+import {UseMemoSample} from './components/UseMemoSample'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
 
   <React.StrictMode>
-    <Parent />
+    <UseMemoSample />
   </React.StrictMode>
 );
 
